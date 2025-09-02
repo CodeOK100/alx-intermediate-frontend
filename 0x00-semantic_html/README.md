@@ -1,7 +1,7 @@
-# 📄 Semantic HTML Practice – 0-index.html & 1-index.html  
+# 📄 Semantic HTML Practice – 0-index.html, 1-index.html & 2-index.html  
 
 ## 🎯 Objective  
-The goal of these tasks was to practice structuring a simple HTML document using semantic elements, and then to enhance the structure with meta tags for improved SEO, accessibility, and responsiveness.  
+The goal of these tasks was to progressively practice structuring HTML documents using semantic elements, enhance them with meta tags for SEO and accessibility, and finally apply semantic elements to create a **blog post layout**.  
 
 ---
 
@@ -32,5 +32,31 @@ The goal of these tasks was to practice structuring a simple HTML document using
   - `<meta name="viewport">` to ensure the page scales well on mobile devices.  
 - I also added a `<title>` tag with the text **"Semantic Html Blog Post"** so that the document has a descriptive title.  
 - These changes improved the document’s **search engine visibility**, **mobile responsiveness**, and **overall accessibility**.  
+
+---
+
+### Task 3: Creating a Blog Layout in `2-index.html`  
+- I copied the content of **`1-index.html`** into a new file named **`2-index.html`**.  
+- Inside the `<header>`:  
+  - I added an `<h1>` with the text **"My Blog"**.  
+  - I created a `<nav>` containing a `<ul>` with three `<li>` elements linking to **Home**, **About**, and **Contact**.  
+- Inside the `<article>` (within `<main>`):  
+  - I added a `<header>` containing an `<h2>` titled **"Understanding Semantic HTML"**.  
+  - I included a `<p>` with a **published date**, using a `<time>` element for proper semantics.  
+  - For the main content, I structured it with **three `<section>` blocks**:  
+    1. **Introduction Section**:  
+       - `<h3>` with the text **"Introduction"**.  
+       - `<p>` explaining how semantic HTML improves accessibility and SEO.  
+    2. **Main Content Section**:  
+       - `<h3>` with the text **"Main Content"**.  
+       - `<p>` describing the importance of `<article>`, `<section>`, and `<header>` tags.  
+       - `<figure>` with an `<img>` (with `alt="example"`) and `<figcaption>` describing the illustration.  
+    3. **Conclusion Section**:  
+       - `<h3>` with the text **"Conclusion"**.  
+       - `<p>` emphasizing how semantic HTML improves accessibility, SEO, and navigation.  
+  - Finally, I added a `<footer>` inside the `<article>` with:  
+    - A `<p>` stating **"Written by <name>"**.  
+    - A `<p>` stating **"Published on 2024-09-11"**.  
+- This created a complete **blog-style layout** using semantic HTML, ensuring clarity, accessibility, and strong document structure.  
 
 ---
