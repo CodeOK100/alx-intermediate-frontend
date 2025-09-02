@@ -1,7 +1,7 @@
-# 📄 Semantic HTML Practice – 0-index.html, 1-index.html & 2-index.html  
+# 📄 Semantic HTML Practice – 0-index.html, 1-index.html, 2-index.html & 3-index.html  
 
 ## 🎯 Objective  
-The goal of these tasks was to progressively practice structuring HTML documents using semantic elements, enhance them with meta tags for SEO and accessibility, and finally apply semantic elements to create a **blog post layout**.  
+The goal of these tasks was to progressively practice structuring HTML documents using semantic elements, enhance them with meta tags for SEO and accessibility, create a **blog post layout**, and finally improve **form accessibility using ARIA roles and attributes**.  
 
 ---
 
@@ -58,5 +58,23 @@ The goal of these tasks was to progressively practice structuring HTML documents
     - A `<p>` stating **"Written by <name>"**.  
     - A `<p>` stating **"Published on 2024-09-11"**.  
 - This created a complete **blog-style layout** using semantic HTML, ensuring clarity, accessibility, and strong document structure.  
+
+---
+
+### Task 4: Enhancing Form Accessibility in `3-index.html`  
+- I copied the content of **`2-index.html`** into a new file named **`3-index.html`**.  
+- Inside the `<main>` element, I added a new `<section>` containing a **form** with ARIA attributes for accessibility:  
+  - `<form action="#" method="POST" aria-labelledby="form-title" role="form">`.  
+- Inside the form:  
+  1. A **Name field** inside a `<div>`:  
+     - `<label for="name">Name</label>`  
+     - `<input type="text" id="name" name="name" aria-required="true">`.  
+  2. An **Email field** inside another `<div>`:  
+     - `<label for="email">Email</label>`  
+     - `<input type="text" id="email" name="email" aria-required="true">`.  
+  3. A **Submit button** inside another `<div>`:  
+     - `<button type="submit" aria-label="Submit the form">Submit</button>`.  
+  4. A `<div aria-live="polite" role="alert"></div>` to provide accessible feedback messages.  
+- These changes ensure that **screen readers** and assistive technologies can properly interpret the form, improving **usability and accessibility** for all users.  
 
 ---
