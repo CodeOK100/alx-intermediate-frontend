@@ -1,4 +1,4 @@
-# 📄 Semantic HTML Practice – 0-index.html, 1-index.html, 2-index.html & 3-index.html  
+# 📄 Semantic HTML Practice
 
 ## 🎯 Objective  
 The goal of these tasks was to progressively practice structuring HTML documents using semantic elements, enhance them with meta tags for SEO and accessibility, create a **blog post layout**, and finally improve **form accessibility using ARIA roles and attributes**.  
@@ -61,7 +61,7 @@ The goal of these tasks was to progressively practice structuring HTML documents
 
 ---
 
-### Task 4: Enhancing Form Accessibility in `3-index.html`  
+### Task 4: Adding and Enhancing Form Accessibility in `3-index.html`  
 - I copied the content of **`2-index.html`** into a new file named **`3-index.html`**.  
 - Inside the `<main>` element, I added a new `<section>` containing a **form** with ARIA attributes for accessibility:  
   - `<form action="#" method="POST" aria-labelledby="form-title" role="form">`.  
