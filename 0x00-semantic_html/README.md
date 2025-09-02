@@ -1,4 +1,4 @@
-# 📄 Semantic HTML Practice – 0-index.html, 1-index.html, 2-index.html & 3-index.html  
+# 📄 Semantic HTML Practice
 
 ## 🎯 Objective  
 The goal of these tasks was to progressively practice structuring HTML documents using semantic elements, enhance them with meta tags for SEO and accessibility, create a **blog post layout**, and finally improve **form accessibility using ARIA roles and attributes**.  
