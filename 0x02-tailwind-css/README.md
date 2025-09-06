@@ -1,34 +1,46 @@
 # 📘 Tailwind CSS Practice – Grid, Flexbox & Responsive Layouts  
 
-## 🎯 Objective  
-This project is part of my **ALX Pro Frontend journey**, focusing on setting up **Tailwind CSS** and using it to build layouts with **CSS Grid, Flexbox, and combinations of both**.  
+## 📖 Introduction  
+This project is part of my **ALX Pro Frontend journey**.  
+It focuses on setting up **Tailwind CSS** and using it to build modern, responsive layouts with **CSS Grid** and **Flexbox**.  
+
+By working through a series of tasks, I learned how to:  
+- Set up Tailwind in a project.  
+- Use CSS Grid to create multi-column layouts.  
+- Use Flexbox to create responsive navigation bars and layouts.  
+- Combine Grid and Flexbox effectively.  
+- Build a responsive image gallery.  
 
 ---
 
 ## 📂 Repository Info  
-- **Repo name:** `alx-intermediate-frontend`  
+- **Repository:** `alx-intermediate-frontend`  
 - **Directory:** `0x02-tailwind-css`  
-- **Files:**  
-  - `src/input.css`  
-  - `src/output.css`  
-  - `tailwind.config.js`  
-  - `1-index.html`  
-  - `2-index.html`  
-  - `3-nav_index.html`  
-  - `4-flexbox_index.html`  
-  - `5-gridflex_index.html`  
-  - `6-imageGallery.html`  
+
+### Files in this project:  
+- `src/input.css`  
+- `src/output.css`  
+- `tailwind.config.js`  
+- `1-index.html` → Basic Grid Layout  
+- `2-index.html` → Nested Grid Layout  
+- `3-nav_index.html` → Flexbox Navigation Bar  
+- `4-flexbox_index.html` → Responsive Flexbox Layout  
+- `5-gridflex_index.html` → Grid + Flexbox Layout  
+- `6-imageGallery.html` → Responsive Image Gallery  
 
 ---
 
-## ⚙️ Task 0: Setting up Tailwind CSS  
+## ⚙️ Prerequisites  
+Before running this project, ensure you have:  
+- [Node.js](https://nodejs.org/) installed  
+- [npm](https://www.npmjs.com/) installed  
+- Basic understanding of HTML & CSS  
 
-1. Install Tailwind CSS in your project.  
-2. Create `tailwind.config.js` with:  
-   ```js
-   /** @type {import('tailwindcss').Config} */
-   module.exports = {
-     content: ["./src/**/*.{html,js}"],
-     theme: { extend: {} },
-     plugins: [],
-   }
+---
+
+## 🚀 Installation & Setup  
+
+1. **Clone the repository:**  
+   ```powershell
+   git clone https://github.com/your-username/alx-intermediate-frontend.git
+   cd alx-intermediate-frontend/0x02-tailwind-css
