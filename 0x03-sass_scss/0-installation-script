@@ -1,0 +1,9 @@
+# Installation Instructions
+
+Step1: Install node.js with "nvm install" (specifically v20+ recommended) and confirm it is installed with "node -v, npm -v".
+
+Step2: Navigate to the project directory with "cd alx-intermediate-frontend/0x03-sass_scss".
+
+Step3: Install Dart Sass with "npm install -D sass".
+
+Step4: Verify installation with "npx sass --version".
